@@ -1,12 +1,43 @@
+# macOS system files
 *.DS_Store
 
+# Bazel build artifacts
 /bazel-*
 
+# Archived URLs
 **/archive-url
 
+# Swift toolchain binaries
 scripts/valdi-swift-toolchain
-
-# Binaries
 scripts/mirroring/bin
+
+# Python virtual environments
 .nlo-venv
-**deploy_manifest.txt
+
+# Deployment manifests
+**/deploy_manifest.txt
+
+# Node.js dependencies
+node_modules/
+
+# Logs and temporary files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Editor settings
+.vscode/
+.idea/
+*.swp
+
+# OS-generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# TypeScript build output
+dist/
+build/
+*.tsbuildinfo
