@@ -1,11 +1,22 @@
 {
   "name": "valdi-compiler-js",
   "version": "1.0.0",
+  "description": "Valdi compiler with secure dependency overrides",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "audit": "npm audit",
+    "audit:fix": "npm audit fix",
+    "scan": "bash scan-and-log-path-to-regexp.sh"
+  },
+  "author": "asrar-mared",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {},
   "overrides": {
     "path-to-regexp": "0.1.12"
   }
 }
-
 
 
 
